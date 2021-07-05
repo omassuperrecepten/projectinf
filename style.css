@@ -1,0 +1,169 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(230, 190, 167);
+}
+
+
+#leftbanner { 
+background-image: url("https://images.smulweb.nl/blog/2017/09/voorbereiding.jpg");
+display: flex;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 250px;
+}
+
+
+#leftbanner .header { 
+    text-align: center;
+    width: 100%;
+    border: 3px solid rgb(165,186,204);
+    border-radius: 5px;
+    padding: 10px; 
+    margin-left: 30%;
+    margin-right: 30%; 
+    margin-top: 75px;
+    margin-bottom: 75px;
+    height: 100px;
+}
+
+#leftbanner .header h1{ 
+    border: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ .info a { 
+    border: 2px dotted white;
+    border-radius: 4px;
+    margin: 7px;
+    padding: 8px;
+    font-family: 'Playfair Display', serif;
+    color:white;
+    display:inline-block;
+    text-decoration: none;
+}
+ 
+
+#rightbanner{ 
+    position: absolute;
+    margin-right: 10%;
+    width: auto;
+}
+
+.recepten{ 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+h1 {
+    color:rgb(230, 190, 167);
+}
+
+h3 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+h4{
+    color:white;
+    
+}
+
+
+.img-homepage {
+    border-style: solid;
+    border-width: 5px; 
+    border-color: rgb(246,204,173); 
+    margin: 10px 60px 10px 60px;
+}
+
+
+.box {
+    font-family: 'Playfair Display', serif;
+    color:rgb(255, 255, 255);
+    background-color:rgb(165,186,204);
+    width: 70%; 
+    padding: 3rem;
+    margin: auto;
+    text-align: center;
+}
+
+
+.img-recept {
+    display: block;
+    margin: 0 right;
+    width: 100%;
+}
+
+.recept div {
+    font-family: 'Playfair Display', serif;
+    font-size: 125%;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    overflow: auto;
+    opacity: 1;
+    text-align: center;
+}
+  
+.recept p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.intro {
+    background-color: rgb(165,186,204);
+    width: 70%; 
+    padding: 3rem;
+    margin: auto;
+}
+
+.ingrediënten p {
+    text-align: start;
+    color: rgb(255, 255, 255);
+    font-size: 65%; 
+}
+
+.ingrediënten ul {
+    text-align: start;
+    font-size: 65%; 
+    color:rgb(255, 255, 255);
+}
+
+.ingrediënten ol {
+    text-align: start;
+    font-size: 65%; 
+    color:rgb(255, 255, 255);
+}
+
+.ingrediënten h4 {
+    text-align: start;
+    font-size: 65%; 
+    color:rgb(255, 255, 255);
+}
+
+.overons{ 
+    background-color: rgb(165,186,204);
+    width: 70%; 
+    padding: 3rem;
+    margin: auto;
+    text-align:center;
+    font-size: 120%;
+}   
+    
+.contact{ 
+    background-color: rgb(165,186,204);
+    width: 70%; 
+    padding: 3rem;
+    margin: auto;
+    text-align:center;
+    font-size: 120%;
+}
